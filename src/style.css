@@ -1,0 +1,85 @@
+body {
+    font-family: 'PT Serif', serif;
+}
+
+.crew {
+    font-size: 36px;
+    line-height: 47.7px;
+    
+}
+
+.description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    max-width: 439px;
+}
+
+img {
+    width: 238px;
+    height: 341px;
+}
+
+.Card {
+    width: 305.21px;
+    writing-mode: vertical-lr;
+    padding: 20px 20px 15px 20px;
+    font-family: serif;
+
+}
+
+.Center {
+    padding-top: 60px;
+}
+
+.tag {
+    writing-mode: vertical-lr;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.Name {
+    padding-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+
+
+@media only screen and (max-width: 425px) {
+    .Card {
+        width: auto;
+        font-size: 10px;
+    }
+
+    img {
+        width: 96px;
+        height: 144px;
+    }
+
+    .Name {
+        font-size: 14px;
+    }
+
+    .Center {
+        padding-top: 0;
+    }
+
+    .ResponsiveLeft {
+        padding-top: 25px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .crew {font-size: 36px;}
+
+    footer{
+        font-size: 12px;
+    }
+}
